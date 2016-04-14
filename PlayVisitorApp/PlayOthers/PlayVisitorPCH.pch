@@ -1,0 +1,27 @@
+//
+//  PlayVisitorPCH.pch
+//  PlayVisitorAPP
+//
+//  Created by   陈黔 on 16/3/5.
+//  Copyright © 2016年 BlackChen. All rights reserved.
+//
+
+#ifndef PlayVisitorPCH_pch
+#define PlayVisitorPCH_pch
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#import "AppDelegate.h"
+#import "UIResponder+Adapt.h"
+#import "DataManager.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "WMPlayer.h"
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PlayVisitorPCH_pch */
